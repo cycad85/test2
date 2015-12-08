@@ -12,12 +12,14 @@ class myViewController: UIViewController {
     
     
     
+    @IBOutlet weak var label1: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Hello GitHub!")
+        label1.text? = "Hello world"
 
         // Do any additional setup after loading the view.
     }
