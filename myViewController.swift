@@ -19,7 +19,7 @@ class myViewController: UIViewController {
         super.viewDidLoad()
         
         print("Hello GitHub!")
-        label1.text? = "Hello world"
+        label1.text? = "Hello github"
 
         // Do any additional setup after loading the view.
     }
